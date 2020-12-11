@@ -28,11 +28,15 @@ b = hb.Batch(name='practice1')
 for degree in ['BA', 'MS']: 
 	for school in ['CU', 'BU']:
 		j = b.new_job(name=f'{degree}-{school}')
-
-# command to run
-j.command(f'echo "I did my {degree} at {school}" ')
+		j.command(f'echo "I did my {degree} at {school}" ')
 
 
 # run batch
 b.run()
+
+## Output:
+# I did my BA at CU
+# I did my BA at BU
+# I did my MS at CU
+# I did my MS at BU 
 
