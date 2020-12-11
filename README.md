@@ -1,3 +1,3 @@
 # hail-practice
-## cluster.py - python script to start a cluster, connect to jupyter notebook, and stop the cluster
+## cluster.py - python script to start a cluster, connect to jupyter notebook, and stop the cluster. Also includes a short hail batch script
 
